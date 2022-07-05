@@ -14,7 +14,7 @@ import DashboardIcon from "@mui/icons-material/Dashboard";
 import { Link } from "react-router-dom";
 import "./sidebar.scss";
 import { useContext } from "react";
-import { DarkModeContext } from "../context/darkModeContext";
+import { DarkModeContext } from "../../context/darkModeContext";
 
 
 const Sidebar = () => {
