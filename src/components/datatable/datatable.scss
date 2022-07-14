@@ -2,26 +2,26 @@
   height: 600px;
   padding: 20px;
 
-.datatableTitle{
-  width: 100%;
-  font-size: 24px;
-  color:gray;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  .datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-  .link{
-    text-decoration: none;
-    color: green;
-    font-size: 16px;
-    font-weight: 400;
-    border: 1px solid green;
-    padding: 5px;
-    border-radius: 5px;
-cursor: pointer;
+    .link {
+      text-decoration: none;
+      color: green;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   }
-}
 
   .cellWithImg {
     display: flex;
@@ -63,12 +63,14 @@ cursor: pointer;
       border-radius: 5px;
       color: darkblue;
       border: 1px dotted rgb(35, 35, 93);
+      cursor: pointer;
     }
     .deleteButton {
       padding: 2px;
       border-radius: 5px;
       color: crimson;
       border: 1px dotted rgb(103, 27, 27);
+      cursor: pointer;
     }
   }
 }
